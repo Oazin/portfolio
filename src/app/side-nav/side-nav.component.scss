@@ -1,0 +1,35 @@
+.vertical-nav {
+    height: 100%;
+    width: 200px;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-right: 1px solid #c6c7c8;
+    background-color: white;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+}
+
+::ng-deep .vertical-nav{
+    box-shadow: 0.4vw 0px 0.4vw rgba(0, 0, 0, 0.08);
+}
+
+
+.vertical-nav a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.vertical-nav a:hover {
+    background-color: #c6c7c86b;
+    border-radius: 0.5em;
+}
+  
+.home, .about, .projects, .contact {
+    padding: 2em;
+    font-size: 26px;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  height: 100%;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+  width: calc(100% - 200px);
+  box-sizing: border-box;
+}
