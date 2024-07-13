@@ -14,7 +14,7 @@ export class TranslationService {
 
   loadTranslations(lang: string): Observable<any> {
     this.currentLang = lang;
-    return this.http.get(`/assets/i18n/${lang}.json`).pipe(
+    return this.http.get(`./assets/i18n/${lang}.json`).pipe(
       map((response: any) => {
         this.translations = response;
         return response;
